@@ -1,0 +1,20 @@
+{
+    "name": "fishpig/magento2-remove-wishlist",
+    "description": "",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "FishPig\\RemoveWishlist\\": "",
+            "Magento\\Wishlist\\": "Mock\\Magento\\Wishlist"
+        }
+    },
+    "version": "1.0.2",
+    "replace": {
+        "magento/module-wishlist": "*",
+        "magento/module-wishlist-analytics": "*",
+        "magento/module-wishlist-graph-ql": "*"
+    }
+}
