@@ -8,5 +8,3 @@ class Data
 {
     
 }
-
-echo __FILE__;exit;
