@@ -3,12 +3,15 @@
     "description": "",
     "type": "magento2-module",
     "autoload": {
+        "files": [
+            "registration.php"
+        ],
         "psr-4": {
             "FishPig\\RemoveWishlist\\": "",
             "Magento\\Wishlist\\": "Mock\\Magento\\Wishlist"
         }
     },
-    "version": "1.0.6",
+    "version": "1.0.7",
     "replace": {
         "magento/module-wishlist": "*",
         "magento/module-wishlist-analytics": "*",
