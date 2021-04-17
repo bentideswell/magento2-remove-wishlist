@@ -6,7 +6,7 @@ declare(strict_types=1);
 
 namespace Magento\Wishlist\Model;
 
-class Wishlist
+class Wishlist extends \Magento\Framework\DataObject
 {
     /**
      * Wishlist cache tag name
