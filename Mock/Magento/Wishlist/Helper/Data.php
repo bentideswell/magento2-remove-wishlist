@@ -4,7 +4,7 @@
  */
 namespace Magento\Wishlist\Helper;
 
-class Data
+class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
     
 }
