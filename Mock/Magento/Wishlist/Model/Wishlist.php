@@ -36,4 +36,14 @@ class Wishlist extends \Magento\Framework\DataObject
     {
         return $this;
     }
+
+    /**
+     *
+     */
+    public function getCollection(): ResourceModel\Wishlist\Collection
+    {
+        return \Magento\Framework\App\ObjectManager::getInstance()->get(
+            ResourceModel\Wishlist\CollectionFactory::class
+        )->create();
+    }
 }

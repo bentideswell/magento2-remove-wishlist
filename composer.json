@@ -7,11 +7,10 @@
             "registration.php"
         ],
         "psr-4": {
-            "FishPig\\RemoveWishlist\\": "",
             "Magento\\Wishlist\\": "Mock\\Magento\\Wishlist"
         }
     },
-    "version": "1.0.10",
+    "version": "1.0.11",
     "replace": {
         "magento/module-wishlist": "*",
         "magento/module-wishlist-analytics": "*",
