@@ -10,7 +10,7 @@
             "Magento\\Wishlist\\": "Mock\\Magento\\Wishlist"
         }
     },
-    "version": "1.0.11",
+    "version": "1.0.12",
     "replace": {
         "magento/module-wishlist": "*",
         "magento/module-wishlist-analytics": "*",
